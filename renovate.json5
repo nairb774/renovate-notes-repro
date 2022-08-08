@@ -1,0 +1,13 @@
+{
+  "extends": [
+    "config:base",
+    ":dependencyDashboard",
+    "docker:pinDigests",
+  ],
+  "kubernetes": {
+    "description": "Scan for kubernetes configuration files.",
+    "fileMatch": [
+      ".*\\.yaml$",
+    ]
+  },
+}

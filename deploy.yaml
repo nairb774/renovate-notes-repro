@@ -1,0 +1,8 @@
+apiVersion: apps/v1
+kind: Deployment
+spec:
+  template:
+    spec:
+      containers:
+        - name: foo
+          image: renovate/renovate:32.100.0-slim
