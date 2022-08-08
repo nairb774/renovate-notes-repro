@@ -5,4 +5,4 @@ spec:
     spec:
       containers:
         - name: foo
-          image: dmorina/github-release-test:1.3.5-prod@sha256:76b23fb38f1a086b53241b0be0fc64ae7a6cae910797a36639b843a002dde1b8
+          image: dmorina/gh-release-test:1.3.5-prod
