@@ -5,4 +5,4 @@ spec:
     spec:
       containers:
         - name: foo
-          image: renovate/renovate:32.100.0-slim@sha256:a31971ae4e2d38866b56ce880a5867ca1ef5b2c59d33bcdcba36ed2487601fc8
+          image: renovate/renovate:37.87.2-slim@sha256:c04a54073032ba64a7e9bf6f98b910f173d7e983bae2058dbc987d4d02f4a046
